@@ -1,0 +1,18 @@
+{
+  "finetuned": {
+    "exact_match_accuracy": 0.05,
+    "partial_match_accuracy": 0.85,
+    "evaluation_time": 33.10678577423096,
+    "samples": 20
+  },
+  "baseline_comparison": {
+    "pretrained_accuracy": 0.16176470588235295,
+    "mock_accuracy": 0.4264705882352941,
+    "improvement": -0.11176470588235295
+  },
+  "test_info": {
+    "test_time": "2025-08-17 12:55:03",
+    "test_samples": 20,
+    "device": "mps"
+  }
+}

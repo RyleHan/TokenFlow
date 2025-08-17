@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+tokenflow_env/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Model checkpoints (keep final model but ignore training checkpoints)
+models/*/checkpoint-*/
+*.pt
+*.pth
+!models/qwen3_fixed_classifier/
+models/qwen3_fixed_classifier/checkpoint-*/optimizer.pt
+models/qwen3_fixed_classifier/checkpoint-*/scheduler.pt
+models/qwen3_fixed_classifier/checkpoint-*/rng_state.pth
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Large files that shouldn't be in git
+*.bin
+*.safetensors
+!models/qwen3_fixed_classifier/*.safetensors

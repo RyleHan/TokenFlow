@@ -1,0 +1,900 @@
+{
+  "test_info": {
+    "timestamp": "2025-08-17 15:24:55",
+    "total_test_cases": 12,
+    "comparison_types": [
+      "预训练Qwen3",
+      "微调纯模型",
+      "微调混合策略"
+    ],
+    "complexity_levels": [
+      "simple",
+      "medium",
+      "complex",
+      "very_complex"
+    ]
+  },
+  "individual_results": [
+    {
+      "test_case": {
+        "prompt": "我想查看我的订单状态",
+        "expected_intents": [
+          "order_management"
+        ],
+        "description": "简单单意图-订单查询",
+        "complexity": "simple"
+      },
+      "results": {
+        "pretrained": {
+          "predicted_intents": [
+            "none"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 800,
+            "tokens_saved": 7200,
+            "savings_percentage": 90.0
+          }
+        },
+        "finetuned": {
+          "predicted_intents": [
+            "order_management",
+            "payment"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.5,
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 2000,
+            "tokens_saved": 6000,
+            "savings_percentage": 75.0
+          }
+        },
+        "hybrid": {
+          "predicted_intents": [
+            "order_management",
+            "payment"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.5,
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 2000,
+            "tokens_saved": 6000,
+            "savings_percentage": 75.0
+          }
+        }
+      }
+    },
+    {
+      "test_case": {
+        "prompt": "怎么绑定用户名",
+        "expected_intents": [
+          "user_auth"
+        ],
+        "description": "简单单意图-用户认证",
+        "complexity": "simple"
+      },
+      "results": {
+        "pretrained": {
+          "predicted_intents": [
+            "none"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 800,
+            "tokens_saved": 7200,
+            "savings_percentage": 90.0
+          }
+        },
+        "finetuned": {
+          "predicted_intents": [
+            "user_auth"
+          ],
+          "metrics": {
+            "exact_match": 1.0,
+            "jaccard": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 1600,
+            "tokens_saved": 6400,
+            "savings_percentage": 80.0
+          }
+        },
+        "hybrid": {
+          "predicted_intents": [
+            "user_auth"
+          ],
+          "metrics": {
+            "exact_match": 1.0,
+            "jaccard": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 1600,
+            "tokens_saved": 6400,
+            "savings_percentage": 80.0
+          }
+        }
+      }
+    },
+    {
+      "test_case": {
+        "prompt": "我要结算订单",
+        "expected_intents": [
+          "order_management"
+        ],
+        "description": "简单单意图-订单结算",
+        "complexity": "simple"
+      },
+      "results": {
+        "pretrained": {
+          "predicted_intents": [
+            "payment"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 1600,
+            "tokens_saved": 6400,
+            "savings_percentage": 80.0
+          }
+        },
+        "finetuned": {
+          "predicted_intents": [
+            "order_management",
+            "payment"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.5,
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 2000,
+            "tokens_saved": 6000,
+            "savings_percentage": 75.0
+          }
+        },
+        "hybrid": {
+          "predicted_intents": [
+            "order_management",
+            "payment"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.5,
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 2000,
+            "tokens_saved": 6000,
+            "savings_percentage": 75.0
+          }
+        }
+      }
+    },
+    {
+      "test_case": {
+        "prompt": "登录后查看订单并处理支付",
+        "expected_intents": [
+          "user_auth",
+          "order_management",
+          "payment"
+        ],
+        "description": "明确多意图-登录+订单+支付",
+        "complexity": "medium"
+      },
+      "results": {
+        "pretrained": {
+          "predicted_intents": [
+            "none"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 800,
+            "tokens_saved": 7200,
+            "savings_percentage": 90.0
+          }
+        },
+        "finetuned": {
+          "predicted_intents": [
+            "order_management",
+            "user_auth",
+            "payment"
+          ],
+          "metrics": {
+            "exact_match": 1.0,
+            "jaccard": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 2400,
+            "tokens_saved": 5600,
+            "savings_percentage": 70.0
+          }
+        },
+        "hybrid": {
+          "predicted_intents": [
+            "none"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 800,
+            "tokens_saved": 7200,
+            "savings_percentage": 90.0
+          }
+        }
+      }
+    },
+    {
+      "test_case": {
+        "prompt": "支付成功后发送通知",
+        "expected_intents": [
+          "payment",
+          "notification"
+        ],
+        "description": "明确多意图-支付+通知",
+        "complexity": "medium"
+      },
+      "results": {
+        "pretrained": {
+          "predicted_intents": [
+            "none"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 800,
+            "tokens_saved": 7200,
+            "savings_percentage": 90.0
+          }
+        },
+        "finetuned": {
+          "predicted_intents": [
+            "payment",
+            "notification"
+          ],
+          "metrics": {
+            "exact_match": 1.0,
+            "jaccard": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 2000,
+            "tokens_saved": 6000,
+            "savings_percentage": 75.0
+          }
+        },
+        "hybrid": {
+          "predicted_intents": [
+            "payment",
+            "notification"
+          ],
+          "metrics": {
+            "exact_match": 1.0,
+            "jaccard": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 2000,
+            "tokens_saved": 6000,
+            "savings_percentage": 75.0
+          }
+        }
+      }
+    },
+    {
+      "test_case": {
+        "prompt": "库存不足时需要及时提醒",
+        "expected_intents": [
+          "inventory",
+          "notification"
+        ],
+        "description": "明确多意图-库存+通知",
+        "complexity": "medium"
+      },
+      "results": {
+        "pretrained": {
+          "predicted_intents": [
+            "none"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 800,
+            "tokens_saved": 7200,
+            "savings_percentage": 90.0
+          }
+        },
+        "finetuned": {
+          "predicted_intents": [
+            "none"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 800,
+            "tokens_saved": 7200,
+            "savings_percentage": 90.0
+          }
+        },
+        "hybrid": {
+          "predicted_intents": [
+            "none"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 800,
+            "tokens_saved": 7200,
+            "savings_percentage": 90.0
+          }
+        }
+      }
+    },
+    {
+      "test_case": {
+        "prompt": "修改身份要是有问题就付款充值",
+        "expected_intents": [
+          "user_auth",
+          "payment"
+        ],
+        "description": "复杂多意图-身份修改+付款",
+        "complexity": "complex"
+      },
+      "results": {
+        "pretrained": {
+          "predicted_intents": [
+            "order_management",
+            "user_auth",
+            "payment",
+            "inventory",
+            "notification"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.4,
+            "precision": 0.4,
+            "recall": 1.0,
+            "f1": 0.5714285714285715
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 3200,
+            "tokens_saved": 4800,
+            "savings_percentage": 60.0
+          }
+        },
+        "finetuned": {
+          "predicted_intents": [
+            "user_auth",
+            "payment"
+          ],
+          "metrics": {
+            "exact_match": 1.0,
+            "jaccard": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 2000,
+            "tokens_saved": 6000,
+            "savings_percentage": 75.0
+          }
+        },
+        "hybrid": {
+          "predicted_intents": [
+            "user_auth",
+            "payment"
+          ],
+          "metrics": {
+            "exact_match": 1.0,
+            "jaccard": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 2000,
+            "tokens_saved": 6000,
+            "savings_percentage": 75.0
+          }
+        }
+      }
+    },
+    {
+      "test_case": {
+        "prompt": "因为账单问题需要支付因为标记短信",
+        "expected_intents": [
+          "payment",
+          "notification"
+        ],
+        "description": "复杂多意图-账单支付+短信通知",
+        "complexity": "complex"
+      },
+      "results": {
+        "pretrained": {
+          "predicted_intents": [
+            "none"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 800,
+            "tokens_saved": 7200,
+            "savings_percentage": 90.0
+          }
+        },
+        "finetuned": {
+          "predicted_intents": [
+            "user_auth",
+            "payment",
+            "notification"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.6666666666666666,
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 2400,
+            "tokens_saved": 5600,
+            "savings_percentage": 70.0
+          }
+        },
+        "hybrid": {
+          "predicted_intents": [
+            "payment"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.5,
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 1600,
+            "tokens_saved": 6400,
+            "savings_percentage": 80.0
+          }
+        }
+      }
+    },
+    {
+      "test_case": {
+        "prompt": "用户注册、订单处理和支付确认",
+        "expected_intents": [
+          "user_auth",
+          "order_management",
+          "payment"
+        ],
+        "description": "复杂多意图-注册+订单+支付",
+        "complexity": "complex"
+      },
+      "results": {
+        "pretrained": {
+          "predicted_intents": [
+            "user_auth",
+            "payment",
+            "inventory",
+            "notification"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.4,
+            "precision": 0.5,
+            "recall": 0.6666666666666666,
+            "f1": 0.5714285714285715
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 2800,
+            "tokens_saved": 5200,
+            "savings_percentage": 65.0
+          }
+        },
+        "finetuned": {
+          "predicted_intents": [
+            "order_management",
+            "user_auth",
+            "payment"
+          ],
+          "metrics": {
+            "exact_match": 1.0,
+            "jaccard": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 2400,
+            "tokens_saved": 5600,
+            "savings_percentage": 70.0
+          }
+        },
+        "hybrid": {
+          "predicted_intents": [
+            "user_auth"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.3333333333333333,
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1": 0.5
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 1600,
+            "tokens_saved": 6400,
+            "savings_percentage": 80.0
+          }
+        }
+      }
+    },
+    {
+      "test_case": {
+        "prompt": "今天天气怎么样",
+        "expected_intents": [
+          "none"
+        ],
+        "description": "无关查询-天气",
+        "complexity": "simple"
+      },
+      "results": {
+        "pretrained": {
+          "predicted_intents": [
+            "none"
+          ],
+          "metrics": {
+            "exact_match": 1.0,
+            "jaccard": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 800,
+            "tokens_saved": 7200,
+            "savings_percentage": 90.0
+          }
+        },
+        "finetuned": {
+          "predicted_intents": [
+            "none"
+          ],
+          "metrics": {
+            "exact_match": 1.0,
+            "jaccard": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 800,
+            "tokens_saved": 7200,
+            "savings_percentage": 90.0
+          }
+        },
+        "hybrid": {
+          "predicted_intents": [
+            "none"
+          ],
+          "metrics": {
+            "exact_match": 1.0,
+            "jaccard": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 800,
+            "tokens_saved": 7200,
+            "savings_percentage": 90.0
+          }
+        }
+      }
+    },
+    {
+      "test_case": {
+        "prompt": "推荐一部好看的电影",
+        "expected_intents": [
+          "none"
+        ],
+        "description": "无关查询-电影推荐",
+        "complexity": "simple"
+      },
+      "results": {
+        "pretrained": {
+          "predicted_intents": [
+            "none"
+          ],
+          "metrics": {
+            "exact_match": 1.0,
+            "jaccard": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 800,
+            "tokens_saved": 7200,
+            "savings_percentage": 90.0
+          }
+        },
+        "finetuned": {
+          "predicted_intents": [
+            "none"
+          ],
+          "metrics": {
+            "exact_match": 1.0,
+            "jaccard": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 800,
+            "tokens_saved": 7200,
+            "savings_percentage": 90.0
+          }
+        },
+        "hybrid": {
+          "predicted_intents": [
+            "none"
+          ],
+          "metrics": {
+            "exact_match": 1.0,
+            "jaccard": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 800,
+            "tokens_saved": 7200,
+            "savings_percentage": 90.0
+          }
+        }
+      }
+    },
+    {
+      "test_case": {
+        "prompt": "账户登录订单支付库存通知全部都要处理",
+        "expected_intents": [
+          "user_auth",
+          "order_management",
+          "payment",
+          "inventory",
+          "notification"
+        ],
+        "description": "极复杂多意图-全业务覆盖",
+        "complexity": "very_complex"
+      },
+      "results": {
+        "pretrained": {
+          "predicted_intents": [
+            "none"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 800,
+            "tokens_saved": 7200,
+            "savings_percentage": 90.0
+          }
+        },
+        "finetuned": {
+          "predicted_intents": [
+            "order_management",
+            "user_auth",
+            "payment",
+            "notification"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.8,
+            "precision": 1.0,
+            "recall": 0.8,
+            "f1": 0.888888888888889
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 2800,
+            "tokens_saved": 5200,
+            "savings_percentage": 65.0
+          }
+        },
+        "hybrid": {
+          "predicted_intents": [
+            "none"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "jaccard": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "token_usage": {
+            "without_filtering": 8000,
+            "with_filtering": 800,
+            "tokens_saved": 7200,
+            "savings_percentage": 90.0
+          }
+        }
+      }
+    }
+  ],
+  "summary_stats": {
+    "pretrained": {
+      "avg_exact_match": 0.16666666666666666,
+      "avg_jaccard": 0.2333333333333333,
+      "avg_f1": 0.2619047619047619,
+      "avg_precision": 0.24166666666666667,
+      "avg_recall": 0.3055555555555555,
+      "avg_token_savings": 6766.666666666667
+    },
+    "finetuned": {
+      "avg_exact_match": 0.5833333333333334,
+      "avg_jaccard": 0.7888888888888889,
+      "avg_f1": 0.8351851851851851,
+      "avg_precision": 0.8055555555555555,
+      "avg_recall": 0.9,
+      "avg_token_savings": 6166.666666666667
+    },
+    "hybrid": {
+      "avg_exact_match": 0.4166666666666667,
+      "avg_jaccard": 0.5694444444444444,
+      "avg_f1": 0.625,
+      "avg_precision": 0.6666666666666666,
+      "avg_recall": 0.6527777777777778,
+      "avg_token_savings": 6600.0
+    }
+  },
+  "complexity_analysis": {
+    "simple": {
+      "pretrained": 0.4,
+      "finetuned": 0.8666666666666666,
+      "hybrid": 0.8666666666666666
+    },
+    "medium": {
+      "pretrained": 0.0,
+      "finetuned": 0.6666666666666666,
+      "hybrid": 0.3333333333333333
+    },
+    "complex": {
+      "pretrained": 0.380952380952381,
+      "finetuned": 0.9333333333333332,
+      "hybrid": 0.7222222222222222
+    },
+    "very_complex": {
+      "pretrained": 0.0,
+      "finetuned": 0.888888888888889,
+      "hybrid": 0.0
+    }
+  },
+  "token_usage_analysis": {
+    "pretrained": 6766.666666666667,
+    "finetuned": 6166.666666666667,
+    "hybrid": 6600.0
+  }
+}

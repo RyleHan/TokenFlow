@@ -1,0 +1,1757 @@
+{"prompt": "我想要结算", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "修改身份要是有问题就付款充值", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "怎么绑定用户名", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "因为账单问题需要支付因为标记短信", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "怎么用户账户余额查询", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "我想统计盘点", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "需要检查进货然后删除购买最后查询费用", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "我忘记了认证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "关于缺货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "订单怎么办", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "怎么删除checkout", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "需要修改购买然后管理商品最后设置警告", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "创建下单然后需要统计出货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "统计补货状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "注册账户和支付价格", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "绑定用户名的方法", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "接收短信当有问题就处理价格", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "关于商品", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "提示设置", "output": ["notification"], "intent_type": "single"}
+{"prompt": "你知道家庭吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "帮我订单支付状态查询", "output": ["payment"], "intent_type": "single"}
+{"prompt": "更新商品完成后取消商品", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "新闻的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "帮我更新一下买", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "认证密码、退款费用和标记短信", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "朋友的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "如何设置邮件", "output": ["notification"], "intent_type": "single"}
+{"prompt": "如何检查有货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "提交购买引起付款费用", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "帮我发送消息", "output": ["notification"], "intent_type": "single"}
+{"prompt": "怎么处理充值", "output": ["payment"], "intent_type": "single"}
+{"prompt": "结算怎么办", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "checkout相关问题", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "认证相关问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "扣费成功后短信提醒", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "账单相关问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "修改checkout的步骤是什么", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "请介绍一下音乐", "output": ["none"], "intent_type": "single"}
+{"prompt": "支付怎么办", "output": ["payment"], "intent_type": "single"}
+{"prompt": "怎么付款价格", "output": ["payment"], "intent_type": "single"}
+{"prompt": "要是购买确认完成后补充出货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "认证认证由于关闭邮件", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "补货怎么办", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "朋友相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "完整流程：查看产品、查看出货、标记通知", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "怎么注册用户名", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "查看进货因为修改下单", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "下单怎么办", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我想了解健康", "output": ["none"], "intent_type": "single"}
+{"prompt": "关于朋友的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "如何查询充值", "output": ["payment"], "intent_type": "single"}
+{"prompt": "假如推送关闭完成后退款充值", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "关于充值", "output": ["payment"], "intent_type": "single"}
+{"prompt": "绑定账号的方法", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "付款充值由于开启推送", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "我想取消价格", "output": ["payment"], "intent_type": "single"}
+{"prompt": "修改订单还要查询价格", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "如何更新库存", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我忘记了验证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "付款相关问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "注册账户之后需要开启提醒", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "关于下单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "消息相关问题", "output": ["notification"], "intent_type": "single"}
+{"prompt": "假如密码验证完成后查看下单", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "需要认证用户名然后扣费退款最后关闭推送", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "库存怎么办", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "关于娱乐的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "需要认证账号然后查看checkout最后设置邮件", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "关于密码", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "扣费价格之后开启警告", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "因为认证问题需要解绑因为查看购物车", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "系统需要统计库存、更新checkout和查询退款功能", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "消息设置", "output": ["notification"], "intent_type": "single"}
+{"prompt": "无法重置，账户有问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "开启警告然后需要支付账单", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "系统需要退款充值、设置推送和删除购物车功能", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "如何提交购买信息", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我想删除短信", "output": ["notification"], "intent_type": "single"}
+{"prompt": "处理账单同时关闭通知", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "关于学习的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "因为商品问题需要删除因为确认账单", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "充值怎么办", "output": ["payment"], "intent_type": "single"}
+{"prompt": "请介绍一下朋友", "output": ["none"], "intent_type": "single"}
+{"prompt": "补充进货然后需要确认购买", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "我想了解体育", "output": ["none"], "intent_type": "single"}
+{"prompt": "查询价格造成重置用户", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "关于天气的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想要买", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "短信相关问题", "output": ["notification"], "intent_type": "single"}
+{"prompt": "确认金额后设置警告并提交订单", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "关于认证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "统计缺货接着提交结算", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "修改密码后取消订单并接收警告", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "库存相关问题", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "怎么接收通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "旅游相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想更新我的结算", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "在统计缺货成功发送短信", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "先更新下单，之后检查货品", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "现货管理", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "补货信息", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "支付怎么办", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我想补充缺货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "支付充值不成功", "output": ["payment"], "intent_type": "single"}
+{"prompt": "需要重置认证，成功后接收短信", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "无法找回，账号有问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "更新下单的步骤是什么", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "注册相关问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "消息相关问题", "output": ["notification"], "intent_type": "single"}
+{"prompt": "如果查看缺货成功推送邮件", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "费用相关问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我想要结算", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "如何付款付款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "引起账户问题需要认证引起确认金额", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "没有收到短信", "output": ["notification"], "intent_type": "single"}
+{"prompt": "关于扣费", "output": ["payment"], "intent_type": "single"}
+{"prompt": "帮我删除短信", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我想标记短信", "output": ["notification"], "intent_type": "single"}
+{"prompt": "今天美食怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "关于付款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "完整流程：盘点货品、创建商品、支付账单", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "我想要注册", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "如何注册我的登录", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "如果关闭提醒成功扣费价格", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "关于缺货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "怎么重置用户名", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "完整流程：扣费扣费、接收通知、创建产品", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "如何更新进货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "取消checkout后更新进货并设置邮件", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "帮我修改验证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "验证怎么办", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "怎么提交商品", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "关于订单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "如何付款支付", "output": ["payment"], "intent_type": "single"}
+{"prompt": "怎么支付成功后发送通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "关于短信", "output": ["notification"], "intent_type": "single"}
+{"prompt": "解绑用户、更新结算和查询扣费", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "checkout怎么查看", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "引起checkout问题需要删除引起退款费用", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "怎么付款充值", "output": ["payment"], "intent_type": "single"}
+{"prompt": "要是接收提醒成功支付金额", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "关于账号", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "进货信息", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "需要创建结算，接着确认费用", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "当支付价格成功认证账户", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "需要登录账号然后确认账单最后开启短信", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "现货相关问题", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "盘点现货、查看订单和支付充值", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "天气相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "我需要查询这个结算", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "怎么退款扣费", "output": ["payment"], "intent_type": "single"}
+{"prompt": "认证注册失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "怎么查看邮件", "output": ["notification"], "intent_type": "single"}
+{"prompt": "提醒怎么办", "output": ["notification"], "intent_type": "single"}
+{"prompt": "创建购物车因为退款费用", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "账单相关问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我想了解娱乐", "output": ["none"], "intent_type": "single"}
+{"prompt": "扣费有问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "先确认扣费，完成后认证用户名", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "需要提交产品，成功后盘点补货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "朋友的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "需要创建下单然后查看货品最后关闭警告", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "验证验证的方法", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "无法找回，登录有问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "费用有问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "标记短信导致处理退款", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "系统需要查看现货、提交下单和付款退款功能", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "认证身份完成后取消订单", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "你知道朋友吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想修改注册", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "完整流程：认证账号、提交购买、标记邮件", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "验证身份在有问题就确认购物车", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "补货怎么办", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "需要盘点商品一起删除购买", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "我想要警告", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我想要买", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "关于朋友的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "如何设置警告", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我想了解娱乐", "output": ["none"], "intent_type": "single"}
+{"prompt": "需要登录认证，接着创建结算", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "下单时检查库存状态", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "因为用户问题需要绑定因为接收消息", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "支付有问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "无法解绑，账号有问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "帮我登录用户名", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "绑定身份后退款退款并接收通知", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "需要发送推送同时扣费账单", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "商品缺货后推送提醒", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "统计进货一起提交结算", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "补货完成时通知消息", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "付款账单不成功", "output": ["payment"], "intent_type": "single"}
+{"prompt": "消息设置", "output": ["notification"], "intent_type": "single"}
+{"prompt": "假如修改用户名成功查询金额", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "我想管理库存", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "进货信息", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "怎么确认购买", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "短信怎么办", "output": ["notification"], "intent_type": "single"}
+{"prompt": "购物车怎么办", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "没有收到短信", "output": ["notification"], "intent_type": "single"}
+{"prompt": "费用失败了", "output": ["payment"], "intent_type": "single"}
+{"prompt": "管理出货状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "标记一个通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "帮我查看一下下单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "关于结算", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "管理补货状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "结算怎么查看", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "登录解绑失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "帮我确认一下下单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "买怎么查询", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "如何确认下单信息", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我想了解书籍", "output": ["none"], "intent_type": "single"}
+{"prompt": "帮我查看通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "确认checkout和充值账单", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "如果支付扣费成功推送短信", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "购买怎么删除", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我需要查看这个买", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "完整流程：创建商品、更新补货、关闭推送", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "帮我支付支付", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我想库存不足时的支付处理", "output": ["payment"], "intent_type": "single"}
+{"prompt": "提醒设置", "output": ["notification"], "intent_type": "single"}
+{"prompt": "更新缺货状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "盘点库存状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想绑定登录", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "怎么删除通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我想了解健康", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想修改我的买", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "帮我标记通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "提示怎么办", "output": ["notification"], "intent_type": "single"}
+{"prompt": "假如补货补充完成后提交购买", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "登录怎么办", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "如何设置提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "今天娱乐怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想处理金额", "output": ["payment"], "intent_type": "single"}
+{"prompt": "查看购物车也要退款扣费", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "帮我查一下天气", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想重置用户名", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "当取消购物车成功查询金额", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "帮我提交一下下单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "登录密码、确认下单和接收通知", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "需要更新补货然后创建产品最后退款价格", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "要是checkout查看完成后付款金额", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "怎么查看checkout", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "能帮我更新买吗", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "关于现货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "如何盘点有货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想要商品", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "怎么处理付款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "消息怎么办", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我想要提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "关于娱乐的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "绑定密码如果有问题就取消商品", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "创建购买后盘点货品并设置短信", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "帮我查一下娱乐", "output": ["none"], "intent_type": "single"}
+{"prompt": "先绑定账号，之后查看商品", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "取消买的步骤是什么", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "你知道音乐吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "验证怎么办", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "修改购买的步骤是什么", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "需要确认结算也要充值退款", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "请介绍一下爱好", "output": ["none"], "intent_type": "single"}
+{"prompt": "账号怎么办", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "我想提交我的购买", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我想付款充值", "output": ["payment"], "intent_type": "single"}
+{"prompt": "怎么接收消息", "output": ["notification"], "intent_type": "single"}
+{"prompt": "由于密码问题需要重置由于取消商品", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "查询下单的步骤是什么", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "怎么关闭推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "帮我查一下天气", "output": ["none"], "intent_type": "single"}
+{"prompt": "退款充值造成解绑账户", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "需要充值金额然后标记消息最后取消购买", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "支付扣费不成功", "output": ["payment"], "intent_type": "single"}
+{"prompt": "系统需要重置密码、支付扣费和发送邮件功能", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "确认充值同时绑定账户", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "补货怎么办", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "当结算提交完成后补充进货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "请介绍一下音乐", "output": ["none"], "intent_type": "single"}
+{"prompt": "能帮我提交结算吗", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "价格失败了", "output": ["payment"], "intent_type": "single"}
+{"prompt": "你知道体育吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "怎么查看出货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "需要先认证用户然后查看购买记录", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "我想要下单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "查询补货状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "费用失败了", "output": ["payment"], "intent_type": "single"}
+{"prompt": "帮我统计有货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "如何查询金额", "output": ["payment"], "intent_type": "single"}
+{"prompt": "帮我修改支付", "output": ["payment"], "intent_type": "single"}
+{"prompt": "盘点不足", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "请介绍一下音乐", "output": ["none"], "intent_type": "single"}
+{"prompt": "先修改用户，之后确认购物车", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "付款失败了", "output": ["payment"], "intent_type": "single"}
+{"prompt": "关于出货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "如何提交购买信息", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我想查询我的产品", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "修改登录的方法", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "完整流程：充值扣费、设置消息、创建下单", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "帮我用户登录后查看订单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "提醒相关问题", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我想了解新闻", "output": ["none"], "intent_type": "single"}
+{"prompt": "用户名解绑失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "帮我支付付款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "用户验证通过后显示订单信息", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "支付价格一起重置密码", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "怎么修改订单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "退款支付不成功", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我想要商品", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我忘记了账号", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "怎么查看通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "系统需要绑定用户、处理金额和推送提醒功能", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "查询扣费不成功", "output": ["payment"], "intent_type": "single"}
+{"prompt": "查看补货和关闭短信", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "怎么发送推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我忘记了认证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "你知道美食吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "无法注册，登录有问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "需要提交下单然后统计现货最后标记通知", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "系统需要注册密码、更新订单和推送警告功能", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "怎么查看盘点", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "体育相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "帮我处理付款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "先充值费用，完成后接收警告", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "系统需要提交结算、检查库存和推送推送功能", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "关闭提示功能", "output": ["notification"], "intent_type": "single"}
+{"prompt": "费用需要付款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "关闭短信功能", "output": ["notification"], "intent_type": "single"}
+{"prompt": "如何支付成功后发送通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "更新缺货和确认商品", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "关于现货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "删除订单的步骤是什么", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我想标记推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "解绑账号完成后需要创建商品", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "帮我退款付款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "需要更新货品然后确认订单最后查询费用", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "无法解绑，账户有问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "找回账户的方法", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "完整的购买流程：登录、下单、支付", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "账户相关问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "解绑身份如果有问题就付款金额", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "帮我检查现货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "价格需要付款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "关于美食的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想退款费用", "output": ["payment"], "intent_type": "single"}
+{"prompt": "请介绍一下电影", "output": ["none"], "intent_type": "single"}
+{"prompt": "需要确认商品然后管理缺货最后接收警告", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "我想了解工作", "output": ["none"], "intent_type": "single"}
+{"prompt": "注册账户和创建购买", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "关于买", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "新闻的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "需要统计补货，然后推送邮件", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "警告怎么办", "output": ["notification"], "intent_type": "single"}
+{"prompt": "删除一个邮件", "output": ["notification"], "intent_type": "single"}
+{"prompt": "怎么查看有货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "关于提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "退款账单、设置短信和删除订单", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "如何修改我的验证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "我想要金额", "output": ["payment"], "intent_type": "single"}
+{"prompt": "用户名怎么办", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "帮我库存管理员登录", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "帮我删除推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "绑定账号并且查询费用", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "系统需要解绑身份、创建产品和付款扣费功能", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "书籍相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "我需要删除这个产品", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "需要付款退款，然后注册账户", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "我想设置邮件", "output": ["notification"], "intent_type": "single"}
+{"prompt": "请介绍一下天气", "output": ["none"], "intent_type": "single"}
+{"prompt": "怎么关闭推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "需要重置账号然后创建产品最后推送提醒", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "提交商品一起确认充值", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "我想更新现货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "补充有货状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "查询支付不成功", "output": ["payment"], "intent_type": "single"}
+{"prompt": "时间相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "怎么修改充值", "output": ["payment"], "intent_type": "single"}
+{"prompt": "接收消息成功后查询退款", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "假如扣费退款完成后修改认证", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "关闭短信和充值扣费", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "我想关闭警告", "output": ["notification"], "intent_type": "single"}
+{"prompt": "怎么确认费用", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我想要库存", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "要是认证用户成功确认购物车", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "出货怎么办", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "关闭推送功能", "output": ["notification"], "intent_type": "single"}
+{"prompt": "订单怎么取消", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "如何设置提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "注册用户名因为修改checkout", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "短信相关问题", "output": ["notification"], "intent_type": "single"}
+{"prompt": "天气相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "怎么查看补货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "需要补充缺货也要提交产品", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "认证认证、确认商品和扣费费用", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "帮我查看推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "先补充补货，之后设置短信", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "扣费价格、设置提醒和提交商品", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "完整流程：检查出货、删除产品、处理账单", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "验证账户因为支付充值", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "盘点缺货、创建产品和充值扣费", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "关于家庭的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "登录验证的方法", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "如何统计补货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "盘点缺货如果有问题就开启消息", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "怎么重置用户名", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "关于账户", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "账单怎么办", "output": ["payment"], "intent_type": "single"}
+{"prompt": "系统需要确认checkout、统计货品和标记邮件功能", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "我想要短信", "output": ["notification"], "intent_type": "single"}
+{"prompt": "帮我修改一下下单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "美食的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "帮我查一下时间", "output": ["none"], "intent_type": "single"}
+{"prompt": "金额失败了", "output": ["payment"], "intent_type": "single"}
+{"prompt": "能帮我提交下单吗", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "关于验证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "帮我查一下家庭", "output": ["none"], "intent_type": "single"}
+{"prompt": "我需要查询这个产品", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "学习的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "警告相关问题", "output": ["notification"], "intent_type": "single"}
+{"prompt": "引起扣费问题需要付款引起设置消息", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "请介绍一下美食", "output": ["none"], "intent_type": "single"}
+{"prompt": "检查缺货、创建订单和处理费用", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "注册身份、更新产品和关闭邮件", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "今天朋友怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "帮我查一下家庭", "output": ["none"], "intent_type": "single"}
+{"prompt": "充值账单和标记警告", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "付款需要修改", "output": ["payment"], "intent_type": "single"}
+{"prompt": "由于商品问题需要更新由于推送通知", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "你知道体育吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "天气相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "提醒设置", "output": ["notification"], "intent_type": "single"}
+{"prompt": "进货怎么办", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "盘点进货后删除商品并查询退款", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "查看缺货和发送邮件", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "我想了解天气", "output": ["none"], "intent_type": "single"}
+{"prompt": "用户名怎么办", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "在密码注册完成后发送短信", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "关于支付", "output": ["payment"], "intent_type": "single"}
+{"prompt": "帮我查一下健康", "output": ["none"], "intent_type": "single"}
+{"prompt": "今天书籍怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "确认金额还要绑定认证", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "你知道时间吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想要推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "现货管理", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "账户验证失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "绑定用户之后开启短信", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "出货管理", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "帮我确认一下购买", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "怎么库存不足时的支付处理", "output": ["payment"], "intent_type": "single"}
+{"prompt": "消息怎么办", "output": ["notification"], "intent_type": "single"}
+{"prompt": "缺货信息", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想验证登录", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "密码重置失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "如何登录我的账户", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "库存不足", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想要用户名", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "关闭一个提醒", "output": ["notification"], "intent_type": "single"}
+{"prompt": "金额需要退款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "系统需要绑定账号、创建下单和付款账单功能", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "需要更新现货同时取消订单", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "关于账户", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "需要推送邮件，完成后查询账单", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "帮我删除一下买", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "短信设置", "output": ["notification"], "intent_type": "single"}
+{"prompt": "怎么验证认证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "扣费金额一起开启推送", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "补充盘点状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "注册密码成功后确认购买", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "怎么更新购物车", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "验证解绑失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "需要认证用户名一起关闭邮件", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "你知道新闻吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "能帮我更新下单吗", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "怎么退款付款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "账单相关问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "引起购买问题需要确认引起盘点现货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "确认价格和解绑用户", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "通知设置", "output": ["notification"], "intent_type": "single"}
+{"prompt": "无法注册，注册有问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "下单流程中的库存管理", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "支付账单、关闭邮件和删除购买", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "盘点补货还要确认产品", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "密码解绑失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "账号验证失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "盘点相关问题", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想要注册", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "需要确认充值然后发送通知最后取消购物车", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "下单怎么办", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "重置认证和退款账单", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "现货不足", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "怎么支付金额", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我需要更新这个购物车", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "怎么更新商品", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "现货管理", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "需要绑定账号还要付款账单", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "用户名相关问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "当消息发送完成后支付账单", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "标记推送在有问题就处理费用", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "你知道工作吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "怎么处理费用", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我想确认账单", "output": ["payment"], "intent_type": "single"}
+{"prompt": "退款金额然后发送消息", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "系统需要修改购买、补充出货和接收邮件功能", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "帮我重置认证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "请介绍一下工作", "output": ["none"], "intent_type": "single"}
+{"prompt": "我忘记了账户", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "能帮我确认checkout吗", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "帮我查一下健康", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想解绑账号", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "时间相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "补充补货状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "帮我删除推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "密码相关问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "设置警告造成支付金额", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "健康的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "关闭推送功能", "output": ["notification"], "intent_type": "single"}
+{"prompt": "充值怎么办", "output": ["payment"], "intent_type": "single"}
+{"prompt": "提示设置", "output": ["notification"], "intent_type": "single"}
+{"prompt": "帮我删除消息", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我想要付款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "金额相关问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "认证用户名假如有问题就修改订单", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "关于新闻的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "需要补充现货同时确认购买", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "认证认证接着开启短信", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "注册绑定失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "扣费失败了", "output": ["payment"], "intent_type": "single"}
+{"prompt": "有货信息", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "下单怎么取消", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我想要金额", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我想处理金额", "output": ["payment"], "intent_type": "single"}
+{"prompt": "买相关问题", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "关于盘点", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "账单需要付款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "完整流程：管理货品、取消下单、处理充值", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "提醒设置", "output": ["notification"], "intent_type": "single"}
+{"prompt": "支付扣费完成后修改身份", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "帮我查询扣费", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我想要付款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "怎么注册账号", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "邮件相关问题", "output": ["notification"], "intent_type": "single"}
+{"prompt": "如何设置通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "造成用户问题需要注册造成处理费用", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "需要用户账户余额查询", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "验证密码、支付扣费和标记消息", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "如何提交结算信息", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "金额怎么办", "output": ["payment"], "intent_type": "single"}
+{"prompt": "先更新现货，接着创建结算", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "我想用户账户余额查询", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "今天体育怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "用户名相关问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "重置认证引起确认费用", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "学习的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "提交产品导致查看货品", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "我想接收提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "完整流程：充值退款、发送警告、删除checkout", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "关于有货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "删除购物车引起确认费用", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "我想了解体育", "output": ["none"], "intent_type": "single"}
+{"prompt": "关于书籍的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "如何确认结算信息", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "帮我重置登录", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "完整流程：更新下单、管理出货、推送推送", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "检查购买记录的支付状态", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "如何退款账单", "output": ["payment"], "intent_type": "single"}
+{"prompt": "帮我开启提醒", "output": ["notification"], "intent_type": "single"}
+{"prompt": "删除订单和查询金额", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "我想管理出货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "引起账单问题需要查询引起推送短信", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "现货管理", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "订单怎么修改", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "充值失败了", "output": ["payment"], "intent_type": "single"}
+{"prompt": "帮我盘点库存", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "系统需要登录密码、更新订单和开启消息功能", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "注册用户名和接收推送", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "查看产品要是有问题就统计货品", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "确认扣费、设置推送和提交订单", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "关于提醒", "output": ["notification"], "intent_type": "single"}
+{"prompt": "查询账单之后需要接收提醒", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "处理充值不成功", "output": ["payment"], "intent_type": "single"}
+{"prompt": "怎么关闭消息", "output": ["notification"], "intent_type": "single"}
+{"prompt": "当检查进货成功开启消息", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "修改订单的步骤是什么", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "删除checkout和补充缺货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "登录验证的方法", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "帮我查一下音乐", "output": ["none"], "intent_type": "single"}
+{"prompt": "在账单退款完成后登录用户", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "补货相关问题", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "没有收到通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "管理库存还要标记邮件", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "新闻的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "扣费失败了", "output": ["payment"], "intent_type": "single"}
+{"prompt": "关闭提醒功能", "output": ["notification"], "intent_type": "single"}
+{"prompt": "要是注册账号成功扣费充值", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "如何确认购物车信息", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "引起账号问题需要重置引起确认价格", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "我想设置提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "关于付款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "盘点怎么办", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "账号相关问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "提醒相关问题", "output": ["notification"], "intent_type": "single"}
+{"prompt": "修改checkout和退款充值", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "进货不足", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "怎么提交购物车", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "关闭消息功能", "output": ["notification"], "intent_type": "single"}
+{"prompt": "关于充值", "output": ["payment"], "intent_type": "single"}
+{"prompt": "如何注册我的登录", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "删除一个提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "验证注册失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "我想要盘点", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "导致认证问题需要绑定导致标记邮件", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "我想了解新闻", "output": ["none"], "intent_type": "single"}
+{"prompt": "充值相关问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "关闭消息功能", "output": ["notification"], "intent_type": "single"}
+{"prompt": "完整流程：认证认证、支付充值、开启提醒", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "盘点信息", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "产品怎么删除", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "缺货管理", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "帮我查一下电影", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想了解旅游", "output": ["none"], "intent_type": "single"}
+{"prompt": "如何查看产品信息", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我想开启推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "账单有问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "请介绍一下娱乐", "output": ["none"], "intent_type": "single"}
+{"prompt": "如果费用处理完成后修改账号", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "需要扣费退款，成功后发送短信", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "我想要库存", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想了解新闻", "output": ["none"], "intent_type": "single"}
+{"prompt": "无法注册，认证有问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "删除商品当有问题就处理充值", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "邮件相关问题", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我想要费用", "output": ["payment"], "intent_type": "single"}
+{"prompt": "关于时间的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "开启一个提醒", "output": ["notification"], "intent_type": "single"}
+{"prompt": "如何统计缺货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "盘点不足", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想支付成功后发送通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "进货管理", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "帮我登录验证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "关于账单", "output": ["payment"], "intent_type": "single"}
+{"prompt": "假如出货更新完成后设置推送", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "帮我查一下体育", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想退款账单", "output": ["payment"], "intent_type": "single"}
+{"prompt": "先修改产品，成功后管理商品", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "价格相关问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "需要更新结算还要管理现货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "如何找回我的用户名", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "我忘记了用户名", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "需要支付金额还要验证认证", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "需要扣费退款，接着设置通知", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "需要处理金额也要设置通知", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "系统需要确认金额、推送通知和查看产品功能", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "盘点管理", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "怎么查看出货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "价格有问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "补货信息", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "如何管理库存", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "能帮我删除结算吗", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "健康相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "登录账号还要发送邮件", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "如何设置通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "盘点现货、创建checkout和查询账单", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "怎么退款扣费", "output": ["payment"], "intent_type": "single"}
+{"prompt": "充值怎么办", "output": ["payment"], "intent_type": "single"}
+{"prompt": "结算怎么查询", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "充值充值后发送邮件并删除订单", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "查看现货也要修改购买", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "开启一个警告", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我想更新我的购物车", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "你知道工作吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "认证解绑失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "关于下单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "造成商品问题需要统计造成设置提醒", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "怎么查询订单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我需要确认这个产品", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "帮我查看提醒", "output": ["notification"], "intent_type": "single"}
+{"prompt": "短信相关问题", "output": ["notification"], "intent_type": "single"}
+{"prompt": "系统需要退款充值、发送邮件和修改checkout功能", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "更新结算和查看补货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "短信设置", "output": ["notification"], "intent_type": "single"}
+{"prompt": "登录账号、提交结算和处理退款", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "统计缺货因为更新购买", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "缺货不足", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "盘点不足", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "账单需要处理", "output": ["payment"], "intent_type": "single"}
+{"prompt": "如何查看产品信息", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "如何管理现货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "怎么取消扣费", "output": ["payment"], "intent_type": "single"}
+{"prompt": "需要更新商品，然后处理退款", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "确认订单后盘点货品并开启通知", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "警告怎么办", "output": ["notification"], "intent_type": "single"}
+{"prompt": "请介绍一下电影", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想了解体育", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想关闭推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我想补充有货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "怎么修改验证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "我想查询进货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "认证相关问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "需要付款费用然后标记通知最后删除产品", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "如果货品管理完成后查看购物车", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "checkout相关问题", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "解绑账户的方法", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "购买相关问题", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "帮我查一下音乐", "output": ["none"], "intent_type": "single"}
+{"prompt": "需要解绑身份还要处理充值", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "由于密码问题需要修改由于接收推送", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "如果修改下单成功扣费扣费", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "怎么查看有货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "怎么确认买", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我想要购物车", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "删除一个推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "金额有问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我想要验证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "完整流程：修改用户名、查询账单、标记消息", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "盘点补货引起推送推送", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "天气的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "账单需要取消", "output": ["payment"], "intent_type": "single"}
+{"prompt": "开启一个提醒", "output": ["notification"], "intent_type": "single"}
+{"prompt": "帮我查看通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "出货管理", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "今天新闻怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "付款失败了", "output": ["payment"], "intent_type": "single"}
+{"prompt": "注册相关问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "通知相关问题", "output": ["notification"], "intent_type": "single"}
+{"prompt": "修改产品、查看出货和关闭短信", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "系统需要验证身份、创建购买和标记邮件功能", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "我想提交我的产品", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "出货信息", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "修改认证后取消商品并扣费充值", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "确认费用之后修改账号", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "帮我取消一下结算", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我想要费用", "output": ["payment"], "intent_type": "single"}
+{"prompt": "当删除购买成功查看缺货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "购物车相关问题", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我想确认我的商品", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "库存管理、订单处理和消息通知", "output": ["inventory", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "关闭推送功能", "output": ["notification"], "intent_type": "single"}
+{"prompt": "系统需要验证账号、扣费扣费和关闭短信功能", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "由于身份问题需要重置由于查询价格", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "购物车相关问题", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "确认金额不成功", "output": ["payment"], "intent_type": "single"}
+{"prompt": "设置警告还要扣费费用", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "怎么支付账单", "output": ["payment"], "intent_type": "single"}
+{"prompt": "扣费相关问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "无法绑定，登录有问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "时间的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "没有收到警告", "output": ["notification"], "intent_type": "single"}
+{"prompt": "账单失败了", "output": ["payment"], "intent_type": "single"}
+{"prompt": "系统需要修改结算、更新货品和发送推送功能", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "扣费有问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "购物车怎么办", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "能帮我修改checkout吗", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "补货怎么办", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "如何补充出货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "支付费用不成功", "output": ["payment"], "intent_type": "single"}
+{"prompt": "有货时发送通知", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "修改产品造成查看进货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "怎么查看出货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想退款账单", "output": ["payment"], "intent_type": "single"}
+{"prompt": "删除下单、统计进货和设置通知", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "我想解绑密码", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "购买前确认货品数量", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "如何支付充值", "output": ["payment"], "intent_type": "single"}
+{"prompt": "能帮我取消结算吗", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "扣费需要处理", "output": ["payment"], "intent_type": "single"}
+{"prompt": "如果登录认证成功创建下单", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "查看订单如果有问题就付款金额", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "能帮我取消下单吗", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "怎么设置消息", "output": ["notification"], "intent_type": "single"}
+{"prompt": "关闭短信功能", "output": ["notification"], "intent_type": "single"}
+{"prompt": "需要注册账号然后确认checkout最后支付金额", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "查询费用如果有问题就解绑账号", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "密码相关问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "checkout怎么办", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "绑定密码、修改结算和支付金额", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "我想修改密码", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "绑定密码后修改结算并接收邮件", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "金额需要查询", "output": ["payment"], "intent_type": "single"}
+{"prompt": "更新出货一起查看商品", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "价格有问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "假如盘点出货成功提交下单", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "管理现货状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "如何取消扣费", "output": ["payment"], "intent_type": "single"}
+{"prompt": "关闭一个提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "有货相关问题", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "造成订单问题需要取消造成检查进货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "登录身份引起设置推送", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "账号登录失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "补充缺货成功后接收提醒", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "重置认证、确认订单和标记消息", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "需要库存不足时的支付处理", "output": ["payment"], "intent_type": "single"}
+{"prompt": "买怎么更新", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "修改账户在有问题就付款费用", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "帮我查询一下结算", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "关于体育的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "怎么查看警告", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我需要查询这个买", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "补货管理", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "书籍相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "订单确认前查看商品库存", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "我想要消息", "output": ["notification"], "intent_type": "single"}
+{"prompt": "账单有问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "认证认证引起取消订单", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "帮我提交一下结算", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "需要统计商品也要标记提醒", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "处理扣费不成功", "output": ["payment"], "intent_type": "single"}
+{"prompt": "帮我查看出货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "帮我查看推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "需要查询退款然后发送通知最后删除结算", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "我想解绑账户", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "怎么关闭警告", "output": ["notification"], "intent_type": "single"}
+{"prompt": "帮我开启短信", "output": ["notification"], "intent_type": "single"}
+{"prompt": "如何补充现货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "用户名怎么办", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "注册密码、退款金额和接收警告", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "系统需要解绑身份、修改产品和支付退款功能", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "假如盘点库存成功设置消息", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "验证登录失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "美食相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "系统需要修改认证、确认价格和关闭推送功能", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "帮我确认一下订单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "学习的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "关于账号", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "娱乐相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "如何取消商品信息", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "验证验证失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "付款相关问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "支付需要确认", "output": ["payment"], "intent_type": "single"}
+{"prompt": "库存检查、订单创建和状态提醒", "output": ["inventory", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "关于学习的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "有货信息", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "重置账号的方法", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "提交订单的步骤是什么", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "关于充值", "output": ["payment"], "intent_type": "single"}
+{"prompt": "支付失败了", "output": ["payment"], "intent_type": "single"}
+{"prompt": "今天体育怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "出货怎么办", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想更新缺货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "系统需要解绑认证、删除产品和标记警告功能", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "帮我删除一下商品", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "关于账号", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "先修改身份，之后支付价格", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "验证密码、修改产品和接收短信", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "请介绍一下美食", "output": ["none"], "intent_type": "single"}
+{"prompt": "关于时间的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "帮我查询盘点", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想取消扣费", "output": ["payment"], "intent_type": "single"}
+{"prompt": "如何验证我的注册", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "系统需要删除下单、管理补货和开启提醒功能", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "金额相关问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "关闭短信功能", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我忘记了登录", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "今天健康怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "付款有问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "订单状态确认和付款处理", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "验证用户后删除商品并推送推送", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "验证相关问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "账户绑定失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "你知道娱乐吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "帮我取消一下订单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "请介绍一下电影", "output": ["none"], "intent_type": "single"}
+{"prompt": "库存信息", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "帮我更新补货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "需要提交下单，接着查看进货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "付款充值不成功", "output": ["payment"], "intent_type": "single"}
+{"prompt": "进货怎么办", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "导致用户问题需要登录导致关闭推送", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "绑定用户和支付扣费", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "系统需要注册认证、删除购物车和推送提醒功能", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "关闭推送之后确认价格", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "商品相关问题", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "查询盘点状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "有货信息", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "关于产品", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "需要处理费用同时验证用户", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "短信怎么办", "output": ["notification"], "intent_type": "single"}
+{"prompt": "先绑定用户名，然后更新下单", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "需要提交购物车一起退款账单", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "充值相关问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "系统需要认证账号、创建产品和处理价格功能", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "修改购物车然后需要付款价格", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "买相关问题", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我需要查看这个订单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "价格相关问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "工作的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想处理账单", "output": ["payment"], "intent_type": "single"}
+{"prompt": "checkout怎么办", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我想开启提醒", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我想管理现货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "如何更新购物车信息", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "如何设置提醒", "output": ["notification"], "intent_type": "single"}
+{"prompt": "如何订单支付状态查询", "output": ["payment"], "intent_type": "single"}
+{"prompt": "账单需要确认", "output": ["payment"], "intent_type": "single"}
+{"prompt": "系统需要绑定密码、充值金额和发送邮件功能", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "没有收到推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "盘点进货一起更新产品", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "充值有问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我忘记了注册", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "认证密码导致发送消息", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "推送警告引起确认扣费", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "我想要扣费", "output": ["payment"], "intent_type": "single"}
+{"prompt": "怎么设置通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我想要提醒", "output": ["notification"], "intent_type": "single"}
+{"prompt": "需要统计库存，之后提交下单", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "我需要提交这个商品", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "帮我查一下健康", "output": ["none"], "intent_type": "single"}
+{"prompt": "认证用户后查看商品并关闭提醒", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "费用需要取消", "output": ["payment"], "intent_type": "single"}
+{"prompt": "确认扣费一起发送消息", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "修改密码后提交结算并开启提醒", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "请介绍一下朋友", "output": ["none"], "intent_type": "single"}
+{"prompt": "能帮我删除产品吗", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "帮我查看库存", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "请介绍一下电影", "output": ["none"], "intent_type": "single"}
+{"prompt": "帮我关闭通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "注册相关问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "更新出货后修改购物车并确认价格", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "完整流程：绑定用户、取消产品、确认费用", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "如何库存管理员登录", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "账号相关问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "书籍相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "怎么取消结算", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "需要注册认证一起充值账单", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "充值相关问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "商品相关问题", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "帮我查看补货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "登录怎么办", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "更新产品之后需要退款金额", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "认证怎么办", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "我想用户登录后查看订单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "需要开启邮件一起查询费用", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "补充商品之后确认产品", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "解绑账号的方法", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "进货相关问题", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "先认证身份，完成后付款退款", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "我想要登录", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "删除下单由于充值账单", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "我想更新我的产品", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "完整流程：注册认证、确认退款、发送通知", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "系统需要认证用户、退款扣费和发送邮件功能", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "今天家庭怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "无法绑定，认证有问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "库存管理", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "帮我修改一下购买", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "需要认证密码还要关闭推送", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "我想要账号", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "我想了解爱好", "output": ["none"], "intent_type": "single"}
+{"prompt": "今天音乐怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "请介绍一下电影", "output": ["none"], "intent_type": "single"}
+{"prompt": "付款失败了", "output": ["payment"], "intent_type": "single"}
+{"prompt": "更新购物车完成后查询账单", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "登录登录失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "关于音乐的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "帮我查一下天气", "output": ["none"], "intent_type": "single"}
+{"prompt": "充值相关问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "帮我查一下音乐", "output": ["none"], "intent_type": "single"}
+{"prompt": "导致扣费问题需要付款导致注册认证", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "我需要删除这个购买", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "需要充值退款一起注册账号", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "结算怎么办", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "需要推送消息并且支付充值", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "如何提交商品信息", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我想要警告", "output": ["notification"], "intent_type": "single"}
+{"prompt": "金额相关问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我想查看警告", "output": ["notification"], "intent_type": "single"}
+{"prompt": "关于价格", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我想要缺货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我需要提交这个结算", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "关于验证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "我想修改金额", "output": ["payment"], "intent_type": "single"}
+{"prompt": "登录注册的方法", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "认证认证也要发送提醒", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "注册账号导致关闭提醒", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "如果短信开启完成后充值充值", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "设置一个推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我想要提醒", "output": ["notification"], "intent_type": "single"}
+{"prompt": "关于学习的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "如何确认支付", "output": ["payment"], "intent_type": "single"}
+{"prompt": "费用失败了", "output": ["payment"], "intent_type": "single"}
+{"prompt": "怎么解绑登录", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "修改账单不成功", "output": ["payment"], "intent_type": "single"}
+{"prompt": "导致扣费问题需要充值导致标记邮件", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "假如充值付款完成后接收消息", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "查看产品在有问题就检查商品", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "更新货品因为创建下单", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "要是盘点补货成功关闭通知", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "需要解绑账号然后确认购买最后处理扣费", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "关闭推送功能", "output": ["notification"], "intent_type": "single"}
+{"prompt": "怎么确认订单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "书籍的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "在修改结算成功统计进货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "确认购物车造成更新库存", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "验证怎么办", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "盘点不足", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "密码修改失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "帮我取消一下结算", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "因为充值问题需要处理因为验证密码", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "更新进货引起推送消息", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "无法解绑，账号有问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "我忘记了注册", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "购买相关问题", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "需要解绑身份然后查看订单最后接收提醒", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "如何用户账户余额查询", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "进货管理", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "推送设置", "output": ["notification"], "intent_type": "single"}
+{"prompt": "帮我标记提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "补充库存成功后需要推送推送", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "帮我重置认证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "假如补货盘点完成后删除下单", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "订单支付状态查询", "output": ["payment"], "intent_type": "single"}
+{"prompt": "怎么查看补货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "假如账户认证完成后查询账单", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "商品怎么删除", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "由于产品问题需要取消由于盘点货品", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "当商品检查完成后推送通知", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "今天家庭怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "认证相关问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "新闻相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "你知道娱乐吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想要费用", "output": ["payment"], "intent_type": "single"}
+{"prompt": "关闭短信功能", "output": ["notification"], "intent_type": "single"}
+{"prompt": "价格有问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "账户怎么办", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "账户重置失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "删除结算的步骤是什么", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "请介绍一下学习", "output": ["none"], "intent_type": "single"}
+{"prompt": "我需要修改这个下单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "要是密码认证完成后扣费退款", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "认证用户名、修改购买和退款费用", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "关于账号", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "我想要订单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "体育的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "关于旅游的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "扣费需要退款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我想盘点出货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想了解音乐", "output": ["none"], "intent_type": "single"}
+{"prompt": "如何补充盘点", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "通知相关问题", "output": ["notification"], "intent_type": "single"}
+{"prompt": "没有收到通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "认证验证失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "能帮我删除买吗", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "需要库存管理员登录", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "支付价格因为登录账号", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "账单需要退款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "进货相关问题", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "提交结算后管理库存并设置通知", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "需要查看商品，接着修改购买", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "完整流程：充值充值、开启提醒、修改订单", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "我想查询扣费", "output": ["payment"], "intent_type": "single"}
+{"prompt": "关闭一个提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "帮我关闭推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "买怎么查看", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "无法验证，密码有问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "出货不足", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "付款退款和解绑账户", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "关于电影的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "进货信息", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "重置用户、更新订单和退款金额", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "完整流程：重置身份、确认商品、确认费用", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "关于登录", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "我忘记了验证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "你知道旅游吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想确认我的结算", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "需要确认费用然后推送邮件最后创建购买", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "学习相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "如何更新出货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "如何修改我的登录", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "怎么确认购买", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "账户怎么办", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "解绑账号、提交购买和扣费扣费", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "当退款扣费成功关闭提醒", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "如果充值查询完成后发送通知", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "关闭警告功能", "output": ["notification"], "intent_type": "single"}
+{"prompt": "需要统计货品然后删除下单最后扣费价格", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "我想要通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "订单相关问题", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "推送邮件和扣费退款", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "需要确认金额，之后修改身份", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "库存不足时发送警告", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "帮我退款费用", "output": ["payment"], "intent_type": "single"}
+{"prompt": "怎么付款金额", "output": ["payment"], "intent_type": "single"}
+{"prompt": "充值需要查询", "output": ["payment"], "intent_type": "single"}
+{"prompt": "帮我修改费用", "output": ["payment"], "intent_type": "single"}
+{"prompt": "有货怎么办", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "需要删除checkout然后统计商品最后开启推送", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "登录相关问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "系统需要更新结算、管理出货和标记消息功能", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "盘点管理", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "重置密码、查看购买和开启通知", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "帮我补充有货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "进货信息", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "支付成功后发送通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "消息设置", "output": ["notification"], "intent_type": "single"}
+{"prompt": "用户账户余额查询", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "我想查询付款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "订单管理和费用结算", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "认证账户同时提交商品", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "我想要费用", "output": ["payment"], "intent_type": "single"}
+{"prompt": "怎么修改购买", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "假如登录身份成功发送短信", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "查看产品同时确认账单", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "查看库存成功后需要接收推送", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "商品怎么提交", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "你知道旅游吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想删除提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "怎么查看补货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "需要支付成功后发送通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "帮我查一下电影", "output": ["none"], "intent_type": "single"}
+{"prompt": "关于出货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "怎么查看缺货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "用户名怎么办", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "关于进货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "关于订单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "推送消息和付款退款", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "盘点现货状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "盘点缺货、查看订单和查询充值", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "短信相关问题", "output": ["notification"], "intent_type": "single"}
+{"prompt": "如何支付账单", "output": ["payment"], "intent_type": "single"}
+{"prompt": "商品库存确认、下单和结果通知", "output": ["inventory", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "账号验证失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "帮我关闭短信", "output": ["notification"], "intent_type": "single"}
+{"prompt": "需要绑定身份然后确认checkout最后支付金额", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "我想关闭推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "电影的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "帮我查一下时间", "output": ["none"], "intent_type": "single"}
+{"prompt": "认证通过后查看账单", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "我想要价格", "output": ["payment"], "intent_type": "single"}
+{"prompt": "怎么设置消息", "output": ["notification"], "intent_type": "single"}
+{"prompt": "怎么查看缺货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "推送怎么办", "output": ["notification"], "intent_type": "single"}
+{"prompt": "查询价格不成功", "output": ["payment"], "intent_type": "single"}
+{"prompt": "需要推送推送还要查询账单", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "请介绍一下旅游", "output": ["none"], "intent_type": "single"}
+{"prompt": "需要用户登录后查看订单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "如何绑定我的验证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "你知道电影吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "消息怎么办", "output": ["notification"], "intent_type": "single"}
+{"prompt": "帮我盘点盘点", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "关于短信", "output": ["notification"], "intent_type": "single"}
+{"prompt": "登录解绑失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "有货管理", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "checkout怎么办", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "请介绍一下书籍", "output": ["none"], "intent_type": "single"}
+{"prompt": "关于短信", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我想了解书籍", "output": ["none"], "intent_type": "single"}
+{"prompt": "今天新闻怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想取消我的下单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "注册认证和关闭推送", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "绑定用户因为查询账单", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "发送推送当有问题就查询金额", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "需要修改订单，成功后扣费价格", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "由于商品问题需要管理由于查看购物车", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "关于账号", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "完整流程：查看库存、删除购物车、查询账单", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "验证用户导致开启消息", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "系统需要处理费用、发送警告和更新下单功能", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "注册认证并且确认充值", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "金额相关问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "商品怎么办", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "绑定身份、扣费充值和推送短信", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "如何提交结算信息", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "如何查询库存", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想处理账单", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我忘记了验证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "造成出货问题需要统计造成设置短信", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "用户认证、订单管理和付款流程", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "现货管理", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "关于结算", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "今天朋友怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "退款充值不成功", "output": ["payment"], "intent_type": "single"}
+{"prompt": "关闭一个消息", "output": ["notification"], "intent_type": "single"}
+{"prompt": "设置一个提醒", "output": ["notification"], "intent_type": "single"}
+{"prompt": "绑定认证后扣费价格并接收消息", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "检查出货和取消购物车", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "关于购物车", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "缺货不足", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "用户登录后查看订单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "如何设置消息", "output": ["notification"], "intent_type": "single"}
+{"prompt": "新闻相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "统计货品和删除下单", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "库存相关问题", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "重置认证在有问题就充值费用", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "警告设置", "output": ["notification"], "intent_type": "single"}
+{"prompt": "重置账户由于设置提醒", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "如何设置提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "盘点怎么办", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "完整流程：重置账户、提交checkout、标记推送", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "今天电影怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "假如价格充值完成后接收短信", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "我想退款金额", "output": ["payment"], "intent_type": "single"}
+{"prompt": "造成扣费问题需要支付造成发送消息", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "怎么更新购买", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "订单相关问题", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "完整流程：确认购买、查看缺货、关闭警告", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "你知道健康吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "登录登录的方法", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "需要登录用户也要更新购买", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "扣费退款当有问题就解绑认证", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "需要认证认证也要开启邮件", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "登录怎么办", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "怎么查询费用", "output": ["payment"], "intent_type": "single"}
+{"prompt": "出货相关问题", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想了解时间", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想查看有货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想要充值", "output": ["payment"], "intent_type": "single"}
+{"prompt": "消息怎么办", "output": ["notification"], "intent_type": "single"}
+{"prompt": "关于现货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "接收一个邮件", "output": ["notification"], "intent_type": "single"}
+{"prompt": "系统需要解绑用户、退款费用和接收邮件功能", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "删除购物车后更新库存并发送通知", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "帮我查看推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "关于购物车", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我需要取消这个购物车", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "处理退款还要注册身份", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "需要检查缺货也要提交购物车", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "请介绍一下爱好", "output": ["none"], "intent_type": "single"}
+{"prompt": "帮我查一下音乐", "output": ["none"], "intent_type": "single"}
+{"prompt": "金额怎么办", "output": ["payment"], "intent_type": "single"}
+{"prompt": "系统需要更新订单、补充商品和设置推送功能", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "现货相关问题", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想支付付款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "如何补充有货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "帮我查一下电影", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想接收邮件", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我需要修改这个下单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "扣费退款和认证账户", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "我想接收推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "你知道美食吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "关于库存", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "完整流程：统计进货、确认购物车、退款充值", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "如果短信接收完成后扣费账单", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "我想修改费用", "output": ["payment"], "intent_type": "single"}
+{"prompt": "绑定密码因为查询扣费", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "标记消息同时扣费金额", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "如何用户登录后查看订单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "美食的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "假如商品检查完成后查看订单", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "开启推送因为处理金额", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "无法验证，密码有问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "检查进货和确认结算", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "购买怎么确认", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "认证怎么办", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "出货相关问题", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "关于体育的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想重置验证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "登录后查看订单状态", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "导致用户问题需要修改导致标记邮件", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "支付成功后发送通知", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "帮我接收推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "注册账户还要充值扣费", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "没有收到提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "如何补充有货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "怎么修改密码", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "认证相关问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "我忘记了验证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "登录账户的方法", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "检查货品也要关闭通知", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "旅游相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "价格有问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我想验证登录", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "关闭警告功能", "output": ["notification"], "intent_type": "single"}
+{"prompt": "充值相关问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "注册账户的方法", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "检查进货、更新商品和支付金额", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "充值有问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "checkout怎么修改", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我想提交我的购物车", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "需要重置用户名一起发送推送", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "能帮我更新checkout吗", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "价格有问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "关于库存", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "充值费用要是有问题就开启短信", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "关于密码", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "需要解绑用户然后处理扣费最后设置推送", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "如果短信推送完成后查询价格", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "结算怎么修改", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "账户验证后处理付款", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "没有收到通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "进货管理", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "关于邮件", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我想要提醒", "output": ["notification"], "intent_type": "single"}
+{"prompt": "需要充值充值还要关闭短信", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "查看盘点状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "没有收到提醒", "output": ["notification"], "intent_type": "single"}
+{"prompt": "怎么开启警告", "output": ["notification"], "intent_type": "single"}
+{"prompt": "无法登录，认证有问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "如果认证注册完成后确认下单", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "关于通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "修改账号后确认下单并设置通知", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "帮我更新补货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "帮我查一下健康", "output": ["none"], "intent_type": "single"}
+{"prompt": "先删除商品，之后退款充值", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "怎么设置提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "电影的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想库存管理员登录", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "帮我查一下新闻", "output": ["none"], "intent_type": "single"}
+{"prompt": "系统需要重置认证、处理扣费和设置邮件功能", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "如何修改结算信息", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "系统需要确认账单、接收提醒和提交购物车功能", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "今天旅游怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "当支付充值成功重置用户名", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "我想要邮件", "output": ["notification"], "intent_type": "single"}
+{"prompt": "付款需要取消", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我想了解时间", "output": ["none"], "intent_type": "single"}
+{"prompt": "关于订单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "出货相关问题", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "如何验证我的注册", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "需要退款金额然后设置提醒最后查看商品", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "怎么订单支付状态查询", "output": ["payment"], "intent_type": "single"}
+{"prompt": "有货信息", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "由于提醒问题需要设置由于处理价格", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "关于短信", "output": ["notification"], "intent_type": "single"}
+{"prompt": "怎么查看缺货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "查看一个提醒", "output": ["notification"], "intent_type": "single"}
+{"prompt": "系统需要登录账号、确认结算和处理价格功能", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "帮我确认一下购物车", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "需要修改结算一起管理出货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "查看一个提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "需要管理货品然后删除购物车最后扣费费用", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "怎么绑定登录", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "怎么查看出货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "帮我更新一下结算", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "要是价格退款完成后解绑身份", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "关于密码", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "我想统计缺货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想要支付", "output": ["payment"], "intent_type": "single"}
+{"prompt": "结算怎么取消", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我想解绑认证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "库存不足", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "如何登录我的账户", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "请介绍一下娱乐", "output": ["none"], "intent_type": "single"}
+{"prompt": "关于有货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "系统需要退款价格、标记提醒和创建产品功能", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "当登录账号成功修改购买", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "帮我开启消息", "output": ["notification"], "intent_type": "single"}
+{"prompt": "关闭提醒功能", "output": ["notification"], "intent_type": "single"}
+{"prompt": "下单相关问题", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "关于价格", "output": ["payment"], "intent_type": "single"}
+{"prompt": "检查进货完成后标记警告", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "帮我标记消息", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我想要账户", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "我想删除我的购买", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "造成用户问题需要登录造成处理价格", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "库存信息", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "付款有问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "如何库存不足时的支付处理", "output": ["payment"], "intent_type": "single"}
+{"prompt": "今天时间怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "系统需要盘点货品、创建订单和付款费用功能", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "当库存统计完成后发送通知", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "没有收到警告", "output": ["notification"], "intent_type": "single"}
+{"prompt": "帮我取消费用", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我想修改注册", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "支付有问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "帮我找回账户", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "系统需要修改账户、提交订单和开启邮件功能", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "购物车怎么修改", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "无法重置，认证有问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "帮我查一下爱好", "output": ["none"], "intent_type": "single"}
+{"prompt": "支付需要退款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我想修改账号", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "因为商品问题需要查看因为补充商品", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "购买怎么取消", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "下单相关问题", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "下单怎么确认", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "关于金额", "output": ["payment"], "intent_type": "single"}
+{"prompt": "工作的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "绑定账号和更新订单", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "我想标记邮件", "output": ["notification"], "intent_type": "single"}
+{"prompt": "账号怎么办", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "你知道爱好吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "怎么确认扣费", "output": ["payment"], "intent_type": "single"}
+{"prompt": "费用需要查询", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我想验证用户名", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "如何删除购买信息", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "如果密码登录完成后设置邮件", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "我想取消我的商品", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "标记一个提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "今天新闻怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "无法验证，用户名有问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "关于价格", "output": ["payment"], "intent_type": "single"}
+{"prompt": "验证密码造成查询金额", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "关于登录", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "如何更新库存", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "需要解绑用户名然后充值金额最后关闭提醒", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "如何付款费用", "output": ["payment"], "intent_type": "single"}
+{"prompt": "现货信息", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "帮我注册账号", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "解绑用户、充值价格和推送推送", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "假如扣费支付完成后标记通知", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "怎么查看出货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "怎么发送警告", "output": ["notification"], "intent_type": "single"}
+{"prompt": "当更新产品成功盘点进货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "查看商品由于标记通知", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "如何查询库存", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "怎么标记邮件", "output": ["notification"], "intent_type": "single"}
+{"prompt": "需要登录账号然后取消结算最后确认费用", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "我想要买", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "关于家庭的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "系统需要注册认证、查看checkout和查询账单功能", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "无法找回，用户名有问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "现货相关问题", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "帮我登录认证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "费用失败了", "output": ["payment"], "intent_type": "single"}
+{"prompt": "需要查询费用然后接收邮件最后取消购买", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "你知道健康吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "登录认证完成后支付", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "先创建checkout，之后付款账单", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "如何修改支付", "output": ["payment"], "intent_type": "single"}
+{"prompt": "如何补充出货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "怎么注册账号", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "更新checkout完成后管理出货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "先绑定密码，接着支付费用", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "要是盘点商品成功发送通知", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "注册认证导致发送消息", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "查看库存状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "今天工作怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "解绑认证后更新产品并处理金额", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "关于价格", "output": ["payment"], "intent_type": "single"}
+{"prompt": "健康的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "查询扣费不成功", "output": ["payment"], "intent_type": "single"}
+{"prompt": "盘点不足", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "无法注册，登录有问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "重置账户和修改订单", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "关于金额", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我想补充进货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "登录相关问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "今天朋友怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "如何设置通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "登录账号然后支付费用", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "库存相关问题", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "需要创建购物车并且查询账单", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "先注册身份，然后查询费用", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "关于提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "查询支付不成功", "output": ["payment"], "intent_type": "single"}
+{"prompt": "需要认证用户然后创建购物车最后关闭警告", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "没有收到推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "先删除购物车，接着支付账单", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "账号相关问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "娱乐相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "登录后查看订单并处理支付", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "造成产品问题需要取消造成处理金额", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "无法修改，密码有问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "爱好相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "验证认证的方法", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "下单怎么办", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "在金额付款完成后绑定身份", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "系统需要支付费用、标记短信和修改购买功能", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "怎么查看出货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想要金额", "output": ["payment"], "intent_type": "single"}
+{"prompt": "怎么查询费用", "output": ["payment"], "intent_type": "single"}
+{"prompt": "没有收到提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "今天时间怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "退款价格和关闭消息", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "充值扣费造成验证用户名", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "天气相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "如果金额退款完成后标记邮件", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "我想补充有货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "有货信息", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "系统需要管理进货、提交购买和查询费用功能", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "检查库存状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "需要支付金额还要修改用户名", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "需要验证身份然后删除结算最后推送提醒", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "关于书籍的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "我需要取消这个商品", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "更新商品和盘点现货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "付款有问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "创建购物车成功后需要盘点出货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "有货怎么办", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想登录账号", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "关于缺货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "关于结算", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "怎么注册用户名", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "怎么库存管理员登录", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "支付失败了", "output": ["payment"], "intent_type": "single"}
+{"prompt": "你知道时间吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "邮件设置", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我想要库存", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "接收推送一起充值扣费", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "注册注册失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "请介绍一下新闻", "output": ["none"], "intent_type": "single"}
+{"prompt": "提醒相关问题", "output": ["notification"], "intent_type": "single"}
+{"prompt": "查看库存、提交购买和充值金额", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "请介绍一下健康", "output": ["none"], "intent_type": "single"}
+{"prompt": "完整流程：更新购买、补充货品、发送提醒", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "需要订单支付状态查询", "output": ["payment"], "intent_type": "single"}
+{"prompt": "如何确认订单信息", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "订单怎么确认", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我需要提交这个结算", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "帮我更新一下订单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "因为下单问题需要确认因为查看库存", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "产品相关问题", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "注册怎么办", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "处理扣费不成功", "output": ["payment"], "intent_type": "single"}
+{"prompt": "怎么绑定登录", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "注册验证的方法", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "怎么退款支付", "output": ["payment"], "intent_type": "single"}
+{"prompt": "关于账号", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "帮我找回用户名", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "如何设置邮件", "output": ["notification"], "intent_type": "single"}
+{"prompt": "需要认证密码，然后删除checkout", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "用户身份确认后扣费", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "提醒相关问题", "output": ["notification"], "intent_type": "single"}
+{"prompt": "确认下单然后统计出货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "导致密码问题需要解绑导致提交订单", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "关于盘点", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "先充值退款，完成后注册用户名", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "设置提醒和查询价格", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "我忘记了认证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "帮我删除提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "需要重置密码，成功后接收短信", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "关于支付", "output": ["payment"], "intent_type": "single"}
+{"prompt": "美食的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "关于推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我想查看我的购物车", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "需要创建购物车也要退款金额", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "统计库存状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "健康相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "推送设置", "output": ["notification"], "intent_type": "single"}
+{"prompt": "导致货品问题需要检查导致开启提醒", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "你知道美食吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "先处理充值，完成后接收提醒", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "关于盘点", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "关于音乐的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "如何统计缺货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想更新盘点", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "无法解绑，注册有问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "怎么查看进货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "请介绍一下音乐", "output": ["none"], "intent_type": "single"}
+{"prompt": "有货信息", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "查看库存状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "解绑身份后确认购买并充值充值", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "扣费怎么办", "output": ["payment"], "intent_type": "single"}
+{"prompt": "需要认证身份然后支付充值最后发送消息", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "请介绍一下新闻", "output": ["none"], "intent_type": "single"}
+{"prompt": "帮我退款费用", "output": ["payment"], "intent_type": "single"}
+{"prompt": "接收消息同时退款费用", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "帮我取消一下checkout", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "重置认证后取消商品并设置消息", "output": ["user_auth", "order_management", "notification"], "intent_type": "multi"}
+{"prompt": "我忘记了注册", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "如何管理进货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "如何设置提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "统计库存引起修改checkout", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "我想订单支付状态查询", "output": ["payment"], "intent_type": "single"}
+{"prompt": "补货管理", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "请介绍一下音乐", "output": ["none"], "intent_type": "single"}
+{"prompt": "关于订单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "解绑用户名的方法", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "我想要账户", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "无法解绑，用户名有问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "我想登录认证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "如何更新进货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "假如确认订单成功检查出货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "统计现货然后接收消息", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "购物车怎么办", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "关于提醒", "output": ["notification"], "intent_type": "single"}
+{"prompt": "确认扣费要是有问题就认证认证", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "怎么标记推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "需要确认退款，之后开启短信", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "关于注册", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "我想取消账单", "output": ["payment"], "intent_type": "single"}
+{"prompt": "现货怎么办", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "盘点盘点状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "没有收到短信", "output": ["notification"], "intent_type": "single"}
+{"prompt": "怎么关闭通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "你知道健康吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想更新我的下单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "修改产品的步骤是什么", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我想要结算", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "重置账户后充值费用并标记提醒", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "帮我查询付款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "完整流程：检查进货、取消下单、退款退款", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "娱乐相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "关于朋友的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "帮我重置账号", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "电影相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "购买相关问题", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "更新进货后删除商品并退款费用", "output": ["inventory", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "注册账户因为确认扣费", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "如何支付付款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "下单怎么查询", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "怎么查看缺货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "查看订单并处理支付问题", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "你知道爱好吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "怎么标记提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "怎么标记警告", "output": ["notification"], "intent_type": "single"}
+{"prompt": "帮我绑定登录", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "如何查看有货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "关闭邮件功能", "output": ["notification"], "intent_type": "single"}
+{"prompt": "帮我检查缺货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想接收推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "没有收到消息", "output": ["notification"], "intent_type": "single"}
+{"prompt": "需要注册账号然后创建购买最后退款价格", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "帮我库存不足时的支付处理", "output": ["payment"], "intent_type": "single"}
+{"prompt": "帮我标记推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "取消结算后统计补货并开启通知", "output": ["order_management", "inventory", "notification"], "intent_type": "multi"}
+{"prompt": "关于用户名", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "补货不足", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "帮我查一下工作", "output": ["none"], "intent_type": "single"}
+{"prompt": "请介绍一下新闻", "output": ["none"], "intent_type": "single"}
+{"prompt": "关于补货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "登录用户名因为修改订单", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "现货信息", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "查看货品引起设置推送", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "我需要查看这个买", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "通知相关问题", "output": ["notification"], "intent_type": "single"}
+{"prompt": "如何重置我的账户", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "密码相关问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "库存不足时的支付处理", "output": ["payment"], "intent_type": "single"}
+{"prompt": "查看出货状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "因为账户问题需要注册因为开启提醒", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "缺货怎么办", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "关于书籍的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "盘点货品之后发送短信", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "创建下单和盘点出货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "账单有问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "要是checkout提交完成后查看现货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "如何支付付款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我想了解健康", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想要缺货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "帮我用户账户余额查询", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "我想要结算", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "下单怎么提交", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "创建商品还要确认退款", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "怎么付款价格", "output": ["payment"], "intent_type": "single"}
+{"prompt": "消息设置", "output": ["notification"], "intent_type": "single"}
+{"prompt": "重置用户名接着付款扣费", "output": ["user_auth", "payment"], "intent_type": "multi"}
+{"prompt": "库存管理员登录", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "扣费有问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "购买怎么确认", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "如果注册密码成功发送短信", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "充值需要支付", "output": ["payment"], "intent_type": "single"}
+{"prompt": "提交买的步骤是什么", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "没有收到通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "先标记邮件，接着查询金额", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "音乐的情况如何", "output": ["none"], "intent_type": "single"}
+{"prompt": "帮我查一下新闻", "output": ["none"], "intent_type": "single"}
+{"prompt": "注册怎么办", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "关闭邮件功能", "output": ["notification"], "intent_type": "single"}
+{"prompt": "需要重置身份然后查看产品最后支付充值", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "造成邮件问题需要设置造成确认账单", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "因为扣费问题需要确认因为标记提醒", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "先验证密码，完成后提交结算", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "金额相关问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "关于学习的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "付款完成时推送消息", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "认证相关问题", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "订单怎么办", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "注册用户名如果有问题就取消下单", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "今天朋友怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "付款价格和绑定用户名", "output": ["payment", "user_auth"], "intent_type": "multi"}
+{"prompt": "请介绍一下书籍", "output": ["none"], "intent_type": "single"}
+{"prompt": "买相关问题", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "今天朋友怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "提示怎么办", "output": ["notification"], "intent_type": "single"}
+{"prompt": "要是取消订单成功充值充值", "output": ["order_management", "payment"], "intent_type": "multi"}
+{"prompt": "补充进货并且确认结算", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "怎么确认商品", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "有货相关问题", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "关于邮件", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我想了解工作", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想确认我的下单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "我想退款价格", "output": ["payment"], "intent_type": "single"}
+{"prompt": "怎么发送通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "需要付款充值然后标记警告最后创建购买", "output": ["payment", "notification", "order_management"], "intent_type": "multi"}
+{"prompt": "如何修改购买信息", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "取消下单和盘点进货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "注册怎么办", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "重置身份引起提交checkout", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "现货相关问题", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "关于充值", "output": ["payment"], "intent_type": "single"}
+{"prompt": "重置身份当有问题就推送提醒", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "取消充值不成功", "output": ["payment"], "intent_type": "single"}
+{"prompt": "我想查询扣费", "output": ["payment"], "intent_type": "single"}
+{"prompt": "今天书籍怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想设置推送", "output": ["notification"], "intent_type": "single"}
+{"prompt": "怎么处理付款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "缺货不足", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "系统需要解绑用户、查询充值和设置邮件功能", "output": ["user_auth", "payment", "notification"], "intent_type": "multi"}
+{"prompt": "我想查看我的结算", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "需要登录账户，然后开启提醒", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "我想了解娱乐", "output": ["none"], "intent_type": "single"}
+{"prompt": "进货相关问题", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "查看下单的步骤是什么", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "提示怎么办", "output": ["notification"], "intent_type": "single"}
+{"prompt": "当库存盘点完成后删除结算", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "现货管理", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "认证用户然后开启警告", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "关于产品", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "绑定密码的方法", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "先盘点货品，然后发送通知", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "补货信息", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "查看缺货状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "购买相关问题", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "查看补货状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "账户验证后查看购买记录和费用", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "绑定账号的方法", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "金额有问题", "output": ["payment"], "intent_type": "single"}
+{"prompt": "造成短信问题需要关闭造成扣费扣费", "output": ["notification", "payment"], "intent_type": "multi"}
+{"prompt": "出货管理", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "支付充值因为开启消息", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "旅游相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "怎么绑定验证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "购买怎么删除", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "需要注册认证还要取消结算", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "帮我修改账号", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "没有收到消息", "output": ["notification"], "intent_type": "single"}
+{"prompt": "请介绍一下天气", "output": ["none"], "intent_type": "single"}
+{"prompt": "关于娱乐的信息", "output": ["none"], "intent_type": "single"}
+{"prompt": "怎么修改用户名", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "更新订单也要查看商品", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "如何查看产品信息", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "帮我查看短信", "output": ["notification"], "intent_type": "single"}
+{"prompt": "需要验证账号，成功后创建商品", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "怎么用户登录后查看订单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "帮我更新一下checkout", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "帮我支付成功后发送通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "需要处理充值同时标记警告", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "需要修改账户然后提交产品最后确认价格", "output": ["user_auth", "order_management", "payment"], "intent_type": "multi"}
+{"prompt": "如何确认产品信息", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "账户登录成功后查看下单历史", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "请介绍一下朋友", "output": ["none"], "intent_type": "single"}
+{"prompt": "今天时间怎么样", "output": ["none"], "intent_type": "single"}
+{"prompt": "查看缺货状态", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想要现货", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "关于金额", "output": ["payment"], "intent_type": "single"}
+{"prompt": "怎么修改扣费", "output": ["payment"], "intent_type": "single"}
+{"prompt": "充值到账后邮件通知", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "没有收到短信", "output": ["notification"], "intent_type": "single"}
+{"prompt": "帮我更新盘点", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "处理退款之后发送通知", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "补充货品并且查看产品", "output": ["inventory", "order_management"], "intent_type": "multi"}
+{"prompt": "我需要删除这个产品", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "导致充值问题需要处理导致开启通知", "output": ["payment", "notification"], "intent_type": "multi"}
+{"prompt": "账户怎么办", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "关闭短信功能", "output": ["notification"], "intent_type": "single"}
+{"prompt": "你知道爱好吗", "output": ["none"], "intent_type": "single"}
+{"prompt": "管理现货造成接收推送", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "关闭提醒功能", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我想查询我的订单", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "需要查看结算，接着管理现货", "output": ["order_management", "inventory"], "intent_type": "multi"}
+{"prompt": "我想修改认证", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "我需要提交这个checkout", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "解绑身份也要确认结算", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "如何查询付款", "output": ["payment"], "intent_type": "single"}
+{"prompt": "账户绑定失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "退款支付不成功", "output": ["payment"], "intent_type": "single"}
+{"prompt": "账单怎么办", "output": ["payment"], "intent_type": "single"}
+{"prompt": "请介绍一下学习", "output": ["none"], "intent_type": "single"}
+{"prompt": "补充商品也要标记通知", "output": ["inventory", "notification"], "intent_type": "multi"}
+{"prompt": "音乐相关的问题", "output": ["none"], "intent_type": "single"}
+{"prompt": "先重置认证，然后创建购物车", "output": ["user_auth", "order_management"], "intent_type": "multi"}
+{"prompt": "假如认证解绑完成后开启消息", "output": ["user_auth", "notification"], "intent_type": "multi"}
+{"prompt": "用户名绑定失败", "output": ["user_auth"], "intent_type": "single"}
+{"prompt": "关于提示", "output": ["notification"], "intent_type": "single"}
+{"prompt": "帮我退款扣费", "output": ["payment"], "intent_type": "single"}
+{"prompt": "帮我查一下美食", "output": ["none"], "intent_type": "single"}
+{"prompt": "我想要盘点", "output": ["inventory"], "intent_type": "single"}
+{"prompt": "我想提交我的买", "output": ["order_management"], "intent_type": "single"}
+{"prompt": "查看一个通知", "output": ["notification"], "intent_type": "single"}
+{"prompt": "我想查询现货", "output": ["inventory"], "intent_type": "single"}
