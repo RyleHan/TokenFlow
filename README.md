@@ -57,7 +57,7 @@ TokenFlow是一个生产级智能API网关，通过**微调的Qwen3-0.6B模型**
 
 1. **克隆仓库**
 ```bash
-git clone https://github.com/yourusername/TokenFlow.git
+git clone https://github.com/RyleHan/TokenFlow.git
 cd TokenFlow
 ```
 
